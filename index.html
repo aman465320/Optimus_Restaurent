@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Optimus Restuarant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ <header class="header">
+     
+     <h3 class="welcoming-heading">Welcome to The Optimus Restaurent</h3>
+     <div class="welcoming-logo">
+         <img class="fine_dining" src="fine_dining_logo.png" alt="">
+         <div class="book_a_table">
+             <p>
+                 Book a Table
+                 <br>
+                 0141-2707600
+                </p>
+            </div>
+ </header>   
+<h3 class="buttering">
+    Meet , Eat and enjoy the true taste
+    <br>
+    Booking a table at our restaurent is easy and just takes a couple of minutes
+</h3>
+
+<nav class="navbar">
+    <ul>
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#">Menu</a></li>
+        <li> <a href="#">About</a></li>
+        <li> <a href="#">Contact Us</a></li>
+   
+        </div>
+    </ul>
+</nav>
+<!-- 
+    <div class="mid_image">
+        <img src="background-food-image.jpg" alt="" class="top_image">
+    </div> -->
+
+    <h3 class="Intro_heading">
+    <u>With Love</u>   
+    </h3>
+   <p class="Intro"> Welcome to my restaurant. Our restaurant provide you best quility product which is made by the
+       world's famous chefs. I hope you enjoy such a great time in our restaurant with your family and friend's.</p>
+
+
+   <h3 class="menu_heading">
+<u>MENU :- </u> 
+</h3>
+
+<br><br><br>
+
+<div class="menu">
+
+<h4>
+<u> North Indian :-</u>
+</h4>
+<img src="North_Indian.jpg" alt="" class="North_Indian">
+<div class="NI">
+    <p>Paneer Tikka - 60</p>
+    <p>Laccha Paratha - 50</p>
+    <p>Matar Paneer - 100</p>
+</div>
+    
+<br><br><br>
+
+<h4>
+<u> South Indian :-</u>
+</h4>
+<img src="South-Indian.jpg" alt="" class="South_Indian">
+<div class="SI">
+    <p>Masala Dosa - 100</p>
+    <p>Hyerabadi Biryani - 500</p>
+    <p>Rava Idli - 150</p>
+</div>
+
+<br><br><br>
+
+<h4>
+<u> Fast Food :-</u>
+</h4>
+<img src="Fast_Food.jpg" alt="" class="Fast_Food">
+<div class="FF">
+    <p>Burger - 60</p>
+    <p>Pizza - 350</p>
+    <p>French Fries - 70</p>
+</div>
+
+<br><br><br>
+
+<h4>
+<u> Chinese :-</u>
+</h4>
+<img src="Chinese.jpg" alt="" class="Chinese">
+<div class="Ch">    
+    <p>Hakka Noodles - 250</p>
+    <p>Chaumin -100</p>
+    <p>Manchurian - 200</p>
+</div>
+
+</div>
+
+<br><br><br><br>
+
+<h2 class="Offer_heading">
+    <u>Offers :-</u>
+</h2>
+
+<marquee direction="up" height="200px">
+    <h1 class="offers_heading_1"><u> Family Offer </u></h1>
+    <h3>buy each item of different variety <br> and get one item for free</h3>
+    <h1 class="offers_heading_1"><u>Friends Offer</u></h1>
+    <h3>Buy same item for 3 people <br> 50 rupee discount </h3>
+</marquee>
+
+
+
+
+<h3 class="booking">
+   <u> Table booking Form </u>
+    <br>
+</h3>
+
+
+
+<div class="form">
+    <img src="background-food-image.jpg" alt="" class="paneer">
+    <form action="backend.php">
+        <label for="name"></label>
+        <div> <strong> Name </strong> : <input type="text" name="MyName" id="name" placeholder="Enter your name"> </div>
+
+        <br>
+        <div> <strong> Phone Number </strong> : <input type="text" name="MyPhoneNumber" placeholder="Enter the phone number"> </div>
+        
+        <br>
+        <div> <strong> Email </strong>: <input type="email" name="MyEmail" id="" placeholder="Enter your e-mail address"> </div>
+        
+        <br>
+        <div> <strong> Message </strong><br> <textarea name="myText" id="" cols="30" rows="10" placeholder="Type a message"></textarea></div>
+        
+        <br>
+        <div>
+            <label for="Day"><strong> Day: </strong></label>
+          
+            <select name="myDay" id="Day">
+                <option value="Mon">Monday</option>
+                <option value="Tue">Tuesday</option>
+                <option value="Wed">Wednesday</option>
+                <option value="Thu">Thurusday</option>
+                <option value="Fri">Friday</option>
+                <option value="Sat">Saturday</option>
+                <option value="Sun">Sunday</option>
+            </select>
+        </div>
+        
+        <br>    
+        <div> <strong>Date:</strong><input type="date" name="TodayDdate" id=""></div>
+
+         <br>
+        <div><input type="submit" value="Submit now"></div>
+         
+    </form>
+</div>
+
+
+<footer>
+    <p>Copyright &copy; 2021 - All Rights Reserved </p>
+    <p>(With love) Made By Aman Mathur</p>
+</footer>
+
+</body>
+
+</html>
